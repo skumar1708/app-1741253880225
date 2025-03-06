@@ -1,0 +1,45 @@
+.app-container {
+  text-align: center;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 20px;
+}
